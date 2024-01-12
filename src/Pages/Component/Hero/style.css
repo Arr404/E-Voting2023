@@ -1,0 +1,50 @@
+video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    /*transform: translateY(75px);*/
+    filter: brightness(0.9);
+}
+.hoak{
+    background-color: #c11108;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+/*.hero-container img{*/
+/*    position: absolute;*/
+/*    left: 12%;*/
+/*    top: 5%;*/
+/*}*/
+.hero-container {
+    top: 0;
+    width: 100%;
+    background-color: #c11108;
+    background-size: cover;
+    height: 0;
+    position: absolute;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    padding: 1em;
+    color: var(--white);
+    align-items: center;
+}
+
+.hero-content h1 {
+    text-shadow: 0 0 10px #0005;
+    text-align: center;
+}
+
+/* .hero-content img {
+  width: 8em;
+} */
